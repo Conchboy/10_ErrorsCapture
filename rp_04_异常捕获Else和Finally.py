@@ -10,3 +10,11 @@ except ValueError:
 
 except Exception as result:
     print("未知错误 %s" % result)
+
+else:
+    print("尝试成功")
+
+finally:
+    print("无论是否出现错误都会被执行的代码")
+
+print("--"*10)
