@@ -13,8 +13,9 @@ def input_password():
     # 2> 主动抛出异常
     raise ex
 
+
 try:
-    pwdwd = input_password()
+    pwd_main = input_password()
     print(pwdwd)
 
 except Exception as result:
