@@ -16,7 +16,7 @@ def input_password():
 
 try:
     pwd_main = input_password()
-    print(pwdwd)
+    print(pwd_main)
 
 except Exception as result:
     print(result)
